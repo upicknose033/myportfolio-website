@@ -81,7 +81,7 @@
 	const notyf = new Notyf();
 
 // configurations needed for the recaptcha
-	const SITE_KEY = '6LdxkUksAAAAAENJny58-i1a5EI2aT2GvYaaaqjC';
+	const SITE_KEY = '6LeEkUksAAAAAK2It5BBA14n2PEYQKLErDKErYbN';
 	const recaptchaContainer = ref(null);
 	const recaptchaWidgetId = ref(null);
 	const recaptchaToken = ref('');
