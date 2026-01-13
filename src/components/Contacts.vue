@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row align-items-start">
 				<div class="col-lg-6 mb-4 mb-lg-0">
-					<form action="">
+					<form @submit.prevent="submitForm">
 						<div class="mb-3" id="name">
 							<label for="name" class="form-label">Name</label>
 							<input
@@ -81,7 +81,7 @@
 	const notyf = new Notyf();
 
 // configurations needed for the recaptcha
-	const SITE_KEY = '';
+	const SITE_KEY = '6Le7jkksAAAAAAGLx6oZrVgmnIxdCJqNR4MtSiP0';
 	const recaptchaContainer = ref(null);
 	const recaptchaWidgetId = ref(null);
 	const recaptchaToken = ref('');
