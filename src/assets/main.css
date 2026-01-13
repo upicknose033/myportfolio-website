@@ -1,0 +1,252 @@
+/* Existing styles from your previous input */
+h1, h2, h3, h5 {
+    font-family: Arvo, serif;
+    font-weight: bolder;
+}
+
+nav, p, label, input::placeholder {
+    font-family: Lato, sans-serif;
+}
+
+.website-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#landing {
+    background-image: url(/images/wallpaper-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+
+#tools h3, #tools h5, #tools img {
+    color: #749eb2;
+}
+
+#tools {
+    background-color: #e9dac4;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 200px;
+    margin: 0;
+}
+
+#tools .container-fluid {
+    padding: 0;
+    width: 100%;
+}
+
+#tools .row {
+    margin: 0;
+    width: 100%;
+}
+
+#tools .col-md-4 {
+    padding: 0 15px;
+}
+
+#projects {
+    background-image: url(/images/wallpaper-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+}
+
+.bg-contact {
+    background-color: #e9dac4;
+    margin: 0;
+    color: #749eb2;
+    font-weight: bolder;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.other-tools {
+    width: 70px;
+    height: 60px;
+}
+
+.mern-tools {
+    width: 60px;
+    height: 60px;
+}
+
+.fe-tools {
+    width: 60px;
+    height: 60px;
+}
+
+#button {
+    background-color: #749eb2;
+    color: #FFFFFF;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0;
+}
+
+.contact-sites {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-navy {
+    background-color: #749eb2;
+}
+
+.navbar-navy .nav-link {
+    color: white !important;
+}
+
+.map-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Mobile-specific styles for small screens (≤576px) */
+@media (max-width: 576px) {
+    /* Navbar */
+    .website-logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    /* Landing Section */
+    #landing {
+        padding: 15px 0;
+    }
+
+    #landing img.rounded-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    #landing h2 {
+        font-size: 1.5rem;
+    }
+
+    #landing p.lead {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    /* Tools Section */
+    #tools {
+        padding: 15px 0;
+    }
+
+    #tools h3 {
+        font-size: 1.25rem;
+    }
+
+    #tools h5 {
+        font-size: 1rem;
+    }
+
+    .fe-tools, .mern-tools, .other-tools {
+        width: 50px;
+        height: 50px;
+    }
+
+    #tools .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    #tools .d-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* Projects Section */
+    #projects {
+        padding: 15px 0;
+    }
+
+    #projects h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-card {
+        margin-bottom: 1rem;
+    }
+
+    .project-img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .project-card h5 {
+        font-size: 1.1rem;
+    }
+
+    .project-description {
+        font-size: 0.85rem;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 15px 1rem;
+    }
+
+    #contact h3 {
+        font-size: 1.25rem;
+    }
+
+    #contact form {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    #contact .form-label {
+        font-size: 0.9rem;
+    }
+
+    #contact .form-control {
+        font-size: 0.85rem;
+    }
+
+    #contact textarea {
+        min-height: 100px;
+    }
+
+    #button {
+        font-size: 0.9rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .contact-sites {
+        width: 40px;
+        height: 40px;
+    }
+
+    .map-image {
+        max-width: 100%;
+        margin-top: 1.5rem;
+    }
+}
