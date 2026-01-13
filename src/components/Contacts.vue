@@ -8,6 +8,7 @@
 						<div class="mb-3" id="name">
 							<label for="name" class="form-label">Name</label>
 							<input
+							v-model="name"
 							type="text"
 							class="form-control bg-white"
 							id="name"
@@ -17,6 +18,7 @@
 						<div class="mb-3" id="email">
 							<label for="email" class="form-label">Email address</label>
 							<input
+							v-model="email"
 							type="email"
 							class="form-control bg-white"
 							id="email"
@@ -25,7 +27,7 @@
 						</div>
 						<div class="mb-3" id="message">
 							<label for="message" class="form-label">Message</label>
-							<textarea class="form-control bg-white" id="message" rows="6" placeholder="Message"></textarea>
+							<textarea v-model="message" class="form-control bg-white" id="message" rows="6" placeholder="Message"></textarea>
 						</div>
 						<button type="submit" class="mb-3 rounded-pill" id="button" :disabled="isLoading">
 							{{
